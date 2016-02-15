@@ -1,0 +1,81 @@
+body{
+	background-color: #585858;
+}
+
+div.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+h1{
+	font-family: Lobster;
+	font-size: 80px;
+	color: white;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+h2{
+	padding-left: 10px;
+}
+
+p{
+	padding-left: 10px;
+	padding-right: 30px;
+	font-size: 17px;
+}
+
+@font-face {
+	font-family: "Lobster";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Lobster.otf");
+}
+
+.header{
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+
+.inputfield{
+	width: 330px;
+	float: right;
+	margin-right: 157px;
+}
+
+.button{
+  display:block;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+.footer{	background-color: grey;
+	margin-top: 15px;
+	height: 50px;
+	text-align: center;
+}
+
+.footertext{
+	padding-top: 13px;
+}
+
+ul li{
+	display: inline;
+	color: white;
+	padding-right: 25px;
+	margin-left: -8px;
+}
+
+ul{
+	background-color: #8E0404;	
+	margin-top: -20px;
+	padding: 20px;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+}
